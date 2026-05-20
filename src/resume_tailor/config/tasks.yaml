@@ -1,0 +1,23 @@
+profile_audience_task:
+  description: >
+    Analyze the target audience and create a detailed buyer persona
+    based on demographics, goals, and pain points.
+  expected_output: >
+    A detailed audience persona profile.
+  agent: audience_profiler
+
+write_hooks_task:
+  description: >
+    Create 3 engaging subject lines and opening hooks
+    for each email in the outreach sequence.
+  expected_output: >
+    Multiple subject line and opening hook options.
+  agent: hook_writer
+
+assemble_sequence_task:
+  description: >
+    Build a complete 3-email cold outreach campaign
+    with strong CTAs using the generated hooks.
+  expected_output: >
+    A professional 3-email outreach sequence.
+  agent: sequence_assembler
